@@ -4,6 +4,7 @@
 .vscode/
 .cursor/
 *.log
+*.ini
 logs/
 *.swp
 *.swo
