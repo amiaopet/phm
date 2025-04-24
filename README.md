@@ -59,7 +59,7 @@ phm-airline-system/
 ```bash
 # 在项目根目录执行
 git init
-git remote add origin https://github.com/您的用户名/您的仓库名.git
+git remote add origin https://github.com/amiaopet/phm.git
 ```
 
 3. 确认已正确配置.gitignore文件，避免提交依赖文件和敏感信息
@@ -72,7 +72,7 @@ git commit -m "初始提交"
 
 5. 推送到GitHub
 ```bash
-git push -u origin main  # 或者master，取决于您的默认分支名称
+git push -u origin main
 ```
 
 ### 日常同步
