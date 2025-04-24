@@ -1,0 +1,13 @@
+      // 使用传入的列定义（如果有）或使用所有键
+      const availableColumns = props.chartColumns && props.chartColumns.length > 0 ? props.chartColumns : keys;
+      console.log("图表数据处理 - 使用的数据列:", availableColumns);
+      
+      // 确保可用列确实存在于数据中
+      const validColumns = availableColumns.filter(col => keys.includes(col));
+      if (validColumns.length === 0) {
+        console.error("没有有效的数据列");
+        return { xAxis: [], series: [] };
+      }
+      
+      const xAxisKey = validColumns[0] // 使用第一个有效列作为X轴
+      const seriesKeys = validColumns.slice(1) // 剩余列作为系列

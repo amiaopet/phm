@@ -1,0 +1,4 @@
+    chartColumns: {
+      type: Array,
+      default: () => []
+    },

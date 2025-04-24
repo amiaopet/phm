@@ -1,0 +1,51 @@
+{
+    "name": "aircraft-monitoring-system",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "@element-plus/icons-vue": "^2.1.1",
+        "axios": "^1.6.8",
+        "core-js": "^3.36.1",
+        "echarts": "^5.5.0",
+        "echarts-gl": "^2.0.9",
+        "element-plus": "^2.5.9",
+        "file-saver": "^2.0.5",
+        "papaparse": "^5.5.3",
+        "vue": "^3.4.21",
+        "vue-router": "^4.3.0",
+        "xlsx": "^0.18.5"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~5.0.8",
+        "@vue/cli-plugin-eslint": "~5.0.8",
+        "@vue/cli-plugin-router": "~5.0.8",
+        "@vue/cli-service": "~5.0.8",
+        "eslint": "^8.57.0",
+        "eslint-plugin-vue": "^9.24.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/vue3-essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "ecmaVersion": 2020
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead",
+        "not ie 11"
+    ]
+}

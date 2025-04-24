@@ -1,0 +1,68 @@
+# 通用忽略文件
+.DS_Store
+.idea/
+.vscode/
+.cursor/
+*.log
+logs/
+*.swp
+*.swo
+*.bak
+temp/
+tmp/
+
+# Python后端忽略
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.env
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 前端忽略
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.nuxt/
+frontend/.cache/
+frontend/.output/
+frontend/coverage/
+
+# 配置文件 (可能包含敏感信息，视情况而定)
+# config.ini
+# .env.production
+
+# 项目特定文件
+data/
+*.pkl
+*.h5
+*.model
+uploads/ 
