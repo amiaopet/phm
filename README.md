@@ -92,33 +92,3 @@ git commit -m "更新说明"
 ```bash
 git push origin main
 ```
-
-## 依赖管理
-
-项目依赖未同步到GitHub，需要本地安装：
-
-### 后端依赖安装
-```bash
-cd backend
-pip install -r requirements.txt
-```
-
-### 前端依赖安装
-```bash
-cd frontend
-npm install
-```
-
-## 运行项目
-
-### 启动后端
-```bash
-cd backend
-uvicorn app:app --reload
-```
-
-### 启动前端
-```bash
-cd frontend
-npm run dev
-``` 
